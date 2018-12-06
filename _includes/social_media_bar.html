@@ -1,0 +1,5 @@
+<span class="social_media_bar">
+{% for item in site.data.social_media_links %}
+    <a class="{{ item.name | downcase }} link" href="{{ item.link }}">{{ item.name }}</a>
+{% endfor %}
+</span>

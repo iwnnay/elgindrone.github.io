@@ -3,32 +3,13 @@
 <head>
     <meta charset="utf-8">
     <title>Elgin Drone | Aerial Photography</title>
-    <link rel="stylesheet" href="styles.css" /> -->
+    <link rel="stylesheet" href="/assets/css/styles.css" /> -->
 </head>
 <body>
-<header>
-    <div id="logo"></div>
-    <div id="flat-contact">
-        <span class="phone"></span>
-        <span class="email">elgindrone@gmail.com</span>
-        <span class="social-media-bar">
-        </span>
-    </div>
-</header>
+{% include header.html %}
 <main>
     {{ content }}
 </main>
-<footer>
-    <div>
-        <span class="social-media-bar">
-        </span>
-    </div>
-    <div>
-        Full Blown Address + Map
-    </div>
-    <div>
-        Contact Info
-    </div>
-</footer>
+{% include footer.html %}
 </body>
 </html>

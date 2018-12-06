@@ -1,0 +1,12 @@
+# Create a readme for posterity
+# Favicon
+# Get a much better desgin for the site done
+# Implement that design
+# Cycle through many large images taken
+# Make the site responsive
+# Make the site mobile friendly
+# Get more videos done and added to portfolio section
+# Write a description
+# Start piecing together a demo video
+# Add that demo reel as the main large image
+# write an about me

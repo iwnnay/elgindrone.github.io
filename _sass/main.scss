@@ -1,0 +1,14 @@
+main {
+  margin: 70px 0;
+
+  #splash {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    > div {
+      background: green;
+      flex: 1;
+    }
+  }
+}

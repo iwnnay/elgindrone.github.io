@@ -4,15 +4,22 @@ layout: main
 <section id="splash">
     <div class="photo"></div>
 </section>
-<section id="portfolio">
-    <h4>Portfolio</h4>
-    <div class="row">
-        <div class="cell">
-            <h5>Rolling Knolls - Disc Golf Course</h5>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/JO7WYaakNxY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
+<section id="description">
+  <article>
+    <h1>Professionalism</h1>
+    <p>{{ site.data.content.professionalism }}</p>
+    <h1>Passion</h1>
+    <p>{{ site.data.content.passion }}</p>
+  </article>
 </section>
-<section class="description">
-    <p></p>
+<section id="portfolio">
+    <h1>Portfolio</h1>
+    <ul>
+    {% for video in site.data.portfolio %}
+      <li>
+        <h5>{{ video.title }}</h5>
+        <iframe src="{{ video.source }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </li>
+    {% endfor %}
+    </ul>
 </section>

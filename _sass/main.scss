@@ -13,12 +13,15 @@ main {
   }
 
   section#description {
-    background: gray;
+    background: url('/assets/images/bio_just_me.jpg') top right;
+    background-size: cover;
     display: flex;
     align-items: center;
 
     article {
-      padding: 0 40% 0 10%;
+      margin: 0 40% 0 10%;
+      padding: 20px;
+      background: rgba(255,255,255,.5);
     }
   }
 

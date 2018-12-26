@@ -5,10 +5,14 @@ main {
   }
 
   #splash {
-    .photo {
-      background: url('/assets/images/lake.png');
-      background-size: cover;
+    background: black;
+
+    #photos {
       height: 100%;
+
+      #photo_1 {
+        height: 100%;
+      }
     }
   }
 

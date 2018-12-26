@@ -16,7 +16,7 @@ $(function () {
     $('#photo_1').css({
       background: 'url("/assets/images/slider/' + image + '.jpg")',
       'background-size': 'cover',
-      'background-position': 'center center',
+      'background-position': 'top center',
     });
 
     count += 1;

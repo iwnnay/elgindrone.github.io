@@ -9,9 +9,23 @@ main {
 
     #photos {
       height: 100%;
+      position: relative;
 
       #photo_1 {
         height: 100%;
+        background-size: cover;
+      }
+
+      #tagline {
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 3em;
+        bottom: 10px;
+        left: 10px;
+        background: rgba(0,0,0,.5);
+        padding: 10px;
+
       }
     }
   }
@@ -23,6 +37,7 @@ main {
     align-items: center;
 
     article {
+      font-size: 1em;
       margin: 0 40% 0 10%;
       padding: 20px;
       background: rgba(255,255,255,.5);
